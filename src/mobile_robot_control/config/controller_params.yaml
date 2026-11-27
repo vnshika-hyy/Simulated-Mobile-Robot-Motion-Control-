@@ -1,0 +1,16 @@
+motion_controller:
+  ros__parameters:
+    forward_speed: 0.10
+    backward_speed: -0.10
+    angular_speed: 0.50
+    action_duration: 2.0
+    stop_duration: 0.75
+    publish_frequency: 10.0
+
+keyboard_controller:
+  ros__parameters:
+    forward_speed: 0.10
+    backward_speed: -0.10
+    angular_speed: 0.50
+    inactivity_timeout: 0.40
+    publish_period: 0.05
